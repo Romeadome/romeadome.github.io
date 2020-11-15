@@ -50,8 +50,8 @@ body.fade-out {
 
 /* The animation effect for moving the nav bar in from above the top of the screen upon page load */
 @keyframes moveNav {
-	from {TOP: -100vw;}
-	to {TOP: 0vw;}
+	from {left: -100vw;}
+	to {left: 0vw;}
   }
   
   /* The animation effect for moving the nav bar in from above the top of the screen upon page load */
