@@ -97,7 +97,7 @@ body.fade-out {
 	position: fixed; /* This fixes our video to the page  */
 	right: 0; /* This ensures no space between the edge of the video and the edge of the page */
 	bottom: 0; /* This ensures no space between the edge of the video and the edge of the page */
-	min-height: 100%; /* This ensures the video is displayed across the full width of the page */
+	min-width: 100%; /* This ensures the video is displayed across the full width of the page */
 	top: 0;
 	z-index: -1;
 	animation: zoominoutsinglefeatured 5s;
@@ -110,7 +110,7 @@ body.fade-out {
 	width: 100%;
 	padding-top: .1vh; /* This adds padding around the text so that the background goes slightly beyond the text */
 	padding-bottom: 1vh;
-	margin-top: 23%;
+	margin-bottom: 23%;
     position: relative;
 	-webkit-animation: moveNav 4s; /* Safari 4.0 - 8.0 */
     animation: movevideoText 4s;
@@ -300,6 +300,7 @@ center {
 	font-family: Perpetua, Rockwell Extra Bold;
 	text-align: center;
 	letter-spacing: .1vw;
+	max-width: 95%;
 	font-size: 1.5vw;
 	padding-left: 5vw;
 	padding-right: 5vw;
