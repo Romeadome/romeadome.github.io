@@ -293,7 +293,7 @@ h1 {
 	text-transform: uppercase; /* We are capitalizing our headings */
 	font-family: "Trebuchet MS", Optima; 
 	text-align: center;
-	margin-top: 3%; /* We are adding a small margin above the headings */
+	margin-top: 2%; /* We are adding a small margin above the headings */
 	color: #1a1a1a;
 }
 
@@ -314,7 +314,7 @@ center {
 	letter-spacing: .1vw;
 	max-width: 95%;
 	font-size: 1.5vw;
-	padding-left: 5vw;
+	padding-left: 7vw;
 	padding-right: 5vw;
 }
 
