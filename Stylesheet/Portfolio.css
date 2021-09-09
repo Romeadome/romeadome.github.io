@@ -266,7 +266,7 @@ body.fade-out {
 	height: 500px;/* You may need to adjust this to fit your content */
 	background-color: #4d4d4d;
 }
-@media screen and (min-width:1093px) {
+@media all and (min-width:1080px) {
 	.Column_2 {
 	  height: 500px;
 	}
@@ -290,21 +290,21 @@ body.fade-out {
 
 /* Heading 1 elements */
 h1 {
-	text-transform: uppercase; /* We are capitalizing our headings */
+	text-transform: none; /* We are capitalizing our headings */
 	font-family: "Trebuchet MS", Optima; 
 	text-align: center;
-	margin-top: 2%; /* We are adding a small margin above the headings */
+	margin-top: .1vw; /* We are adding a small margin above the headings */
 	color: #1a1a1a;
 }
 
 /* Paragraph elements */
 p {
 	font-family: Perpetua, Rockwell Extra Bold;
-	text-align: justify;
+	text-align: center;
 	letter-spacing: .1vW; /* This expands the text slightly */
 	font-size: 1.5vw;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: .5vw;
+	padding-right: .5vw;
 }
 
 /* Center align elements - this embraces all centered text */
